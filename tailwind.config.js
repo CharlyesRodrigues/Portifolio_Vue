@@ -7,11 +7,11 @@ module.exports = {
   theme: {
     extend: {},
     colors:{
-      'white': '#FFFFFF',
+      'white-500': '#FFFFFF',
       'dark-700' : '#121212',
-      'white':' #EDEDED' ,
-      'Rectangle-4234': '#27272A',
-      'red ' : '#990100'
+      'white-600':' #EDEDED' ,
+      'gray-500': '#27272A',
+      'red-400 ' : '#990100'
 
     },
     fontFamily: {
