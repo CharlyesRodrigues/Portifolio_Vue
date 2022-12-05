@@ -1,5 +1,7 @@
 <template>
-  <h1 class="
+    
+
+  <h1 class=" 
   text-white-500 
   absolute 
   w-[49.4375rem] 
@@ -14,28 +16,26 @@
   
   "
   > Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</h1>
-  
 
-
+<Botao />
 </template>
 
 <script>
 
 
 
-
+import Botao from './components/botao/Botao.vue'
 
 
 
 export default {
   name: 'App',
   components: { 
-   
+  Botao
  
   }
 
 }
 </script>
 
-<style>
-</style>
+
