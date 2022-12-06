@@ -1,6 +1,6 @@
 <template>
     
-
+    <Cabecalho />
   <h1 class=" 
   text-white-500 
   absolute 
@@ -16,22 +16,23 @@
   
   "
   > Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</h1>
+  <Botao />
 
-<Botao />
 </template>
 
 <script>
 
 
 
-import Botao from './components/botao/Botao.vue'
 
-
+import Botao from './components/Botao/Botao.vue';
+import Cabecalho from './Header/Cabecalho.vue';
 
 export default {
   name: 'App',
   components: { 
-  Botao
+  Botao,
+  Cabecalho
  
   }
 
