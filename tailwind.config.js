@@ -5,7 +5,14 @@ module.exports = {
     "./src/**/*.{html,js,vue}"
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'header-logo': "url('/src/assets/flags/usa.png')",
+       
+      }
+
+
+    },
     colors:{
       'white-500': '#FFFFFF',
       'dark-700' : '#121212',
