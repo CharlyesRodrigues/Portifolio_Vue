@@ -11,7 +11,9 @@ module.exports = {
       'dark-700' : '#121212',
       'white-600':' #EDEDED' ,
       'gray-500': '#27272A',
-      'red-400 ' : '#990100'
+      'red-400 ' : '#990100',
+      'white-33%' : '#DADADA'
+      
 
     },
     fontFamily: {
