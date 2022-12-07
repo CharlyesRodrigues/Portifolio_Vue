@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'header-logo': "url('/src/assets/flags/usa.png')",
+        'header-logo': "url('/src/assets/Logo/image.png')"
        
       }
 
