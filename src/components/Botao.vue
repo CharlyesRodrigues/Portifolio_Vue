@@ -1,23 +1,11 @@
 <template>
     
-
-  <div class="  
-  absolute 
-  w-[8.3125rem]
-  h-[3.1875rem]
-  left-[29.375rem]
-  top-[51.3125rem]
-
-  /* Dark/surface-secondary */
-  bg-gray-500
-  rounded-lg
+<botton>
+  <div  class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  ><h1>Português</h1></div>
+  <img src="./../assets/flags/brasil.png" class=" absolute w-7 h-7 left-[30.125rem] top-[52.3125rem] " >
   
-  " 
-  >
-  <img src="./../assets/flags/brasil.png">
-  <h1>Português</h1>
+</botton>
 
-</div>
 
   <div class="  
   absolute 
