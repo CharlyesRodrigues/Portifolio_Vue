@@ -17,7 +17,7 @@
   
   
   export default {
-    name: 'Header-stackx',
+    name: 'Header-',
     components: { 
   
    

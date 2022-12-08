@@ -13,8 +13,12 @@
   rounded-lg
   
   " 
-  ></div>
-  
+  >
+  <img src="./../assets/flags/brasil.png">
+  <h1>Português</h1>
+
+</div>
+
   <div class="  
   absolute 
   w-[8.3125rem]
@@ -27,7 +31,11 @@
   rounded-lg
   
   " 
-  ></div>
+  >
+  <img src="./../assets/flags/usa.png">
+  <h1>Inglês</h1>
+
+  </div>
 
   <div class="  
   absolute 
@@ -41,7 +49,11 @@
   rounded-lg
   
   " 
-  ></div>
+  >
+  
+    <img src="./../assets/flags/spain.png">
+    <h1>Espanhol</h1>
+</div>
 
 
 
@@ -57,7 +69,7 @@
   
   
   export default {
-    name: 'Botao-linguagem',
+    name: 'Botao-',
     components: { 
   
    

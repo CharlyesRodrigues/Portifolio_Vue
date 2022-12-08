@@ -16,6 +16,9 @@
   
   "
   > Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</h1>
+
+
+<tecnologias />
  <Botao />
 
 </template>
@@ -27,12 +30,14 @@
 
 import Botao from './components/Botao.vue';
 import Header from './components/Header.vue';
+import tecnologias from './components/tecnologias.vue';
 
 export default {
   name: 'App',
   components: { 
   Botao,
-  Header
+  Header,
+  tecnologias
   
  
  
