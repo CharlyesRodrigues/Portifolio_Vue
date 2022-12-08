@@ -15,7 +15,7 @@
     text-center  
     
     "
-    > kkkkkkkkkkkkkkkkkkkkkkkççççççkkkkkkkkk</h1>
+    > kkkkkkkkkkkkkkkkkkkkkkkçkkkkkkk</h1>
   
   
   </template>
