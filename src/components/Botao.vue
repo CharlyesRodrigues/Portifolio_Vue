@@ -1,7 +1,21 @@
 <template>
-    
+      <h1 class=" 
+  text-white-500 
+  absolute 
+  w-[49.4375rem] 
+  h-[4.75rem] 
+  left-[20.31rem]
+  top-[10.5rem]
+  not-italic
+  font-medium
+  text-2xl
+  leading-[160%]
+  text-center  
+  
+  "
+  > Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</h1>
 
-  <botton  class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </botton>
+  <button onclick= {idomas.portugues} class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </button>
   <img src="./../assets/flags/brasil.png" class=" absolute w-5 h-5 left-[30.125rem] top-[52.3125rem] " >
   <h1 class="
   absolute
@@ -19,14 +33,11 @@
   
   ">Português</h1>
 
- 
 
 
 
 
-
-
-  <botton class="  
+  <button class="  
   absolute 
   w-[8.3125rem]
   h-[3.1875rem]
@@ -38,7 +49,7 @@
   rounded-lg
   
   " 
-  ></botton>
+  ></button>
 
   <img src="./../assets/flags/usa.png" class=" absolute w-5 h-5 left-[42.625rem] top-[52.3125rem]  ">
    <h1 class=" 
@@ -58,7 +69,7 @@
   
 
 
-  <Botton class="  
+  <Button class="  
   absolute 
   w-[8.3125rem]
   h-[3.1875rem]
@@ -70,7 +81,7 @@
   rounded-lg
   
   " 
-  ></Botton>
+  ></Button>
   
     <img src="./../assets/flags/spain.png" class="absolute w-5 h-5 left-[53.3125rem] top-[52.3125rem]">
     <h1 class="
@@ -102,9 +113,20 @@
   export default {
     name: 'Botao-',
     components: { 
-  
-   
-    }
+     
+    },
+    idiomas(){
+
+return{
+
+portugues: 'Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:',
+ingles: "Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:",
+espanhol:"Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:"
+}
+
+
+
+ }
   
   }
   </script>

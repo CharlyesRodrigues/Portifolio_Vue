@@ -7,13 +7,6 @@ outline outline-offset-1 outline-dourado
 /* Dark/surface-secondary */
 " >
 
-
-        
-        
-             
-        
-       
-
 </div>
 
 
@@ -37,22 +30,6 @@ outline outline-offset-1 outline-dourado
 <ul class="list-disc"  v-for=" coluna3 in lista3" v-bind:key="coluna3.id " ><li>{{coluna3}}</li></ul>  
 
 </p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       
         
