@@ -8,6 +8,16 @@ outline outline-offset-1 outline-dourado
 " >
 
 
+    
+    
+       
+    
+         <div>{{lista1}}</div>
+             
+    
+   
+
+
 
 </div>
 
@@ -15,18 +25,17 @@ outline outline-offset-1 outline-dourado
 
 <script>
 
-
+  
+  
 
 
 
 export default {
  name: 'tecnologias-',
  components: { 
-
- 
-
-
+   
  }
+ 
 
 }
 </script>
