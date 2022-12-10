@@ -18,25 +18,25 @@ outline outline-offset-1 outline-dourado
 
 
 
-<div  class=" absolute w-[9.8125rem] h-32 left-[23.75rem] top-[20.4375rem] font-sans not-italic  font-semibold text-xl leading-8   text-white-600 ">
+<p  class=" absolute w-[9.8125rem] h-32 left-[23.75rem] top-[20.4375rem] font-sans not-italic  font-semibold text-xl leading-8   text-white-600 ">
 
- <ul v-for=" coluna1 in lista1" v-bind:key="coluna1.id " ><li>{{coluna1}}</li></ul>  
+ <ul class="list-disc"  v-for=" coluna1 in lista1" v-bind:key="coluna1.id " ><li>{{coluna1}}</li></ul>  
  
-</div>
+</p>
 
-<div  class=" absolute w-[13.875rem] h-32 left-[39.6875rem] top-[20.4375rem] font-sans not-italic  font-semibold text-xl leading-8   text-white-600 ">
+<p  class=" absolute w-[13.875rem] h-32 left-[39.6875rem] top-[20.4375rem] font-sans not-italic  font-semibold text-xl leading-8   text-white-600 ">
 
-<ul v-for=" coluna2 in lista2" v-bind:key="coluna2.id " ><li>{{coluna2}}</li></ul>  
+<ul class="list-disc"  v-for=" coluna2 in lista2" v-bind:key="coluna2.id " ><li>{{coluna2}}</li></ul>  
 
-</div>
+</p>
 
 
 
-<div  class=" absolute w-[6.625rem] h-16 left-[59.6875rem] top-[20.4375rem] font-sans not-italic  font-semibold text-xl leading-8  text-white-600 ">
+<p  class=" absolute w-[6.625rem] h-16 left-[59.6875rem] top-[20.4375rem] font-sans not-italic  font-semibold text-xl leading-8  text-white-600 ">
 
-<ul v-for=" coluna3 in lista3" v-bind:key="coluna3.id " ><li>{{coluna3}}</li></ul>  
+<ul class="list-disc"  v-for=" coluna3 in lista3" v-bind:key="coluna3.id " ><li>{{coluna3}}</li></ul>  
 
-</div>
+</p>
 
 
 
