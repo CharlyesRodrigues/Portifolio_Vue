@@ -1,10 +1,33 @@
 <template>
     
-<botton>
-  <div  class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  ><h1>Português</h1></div>
+
+  <botton  class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </botton>
   <img src="./../assets/flags/brasil.png" class=" absolute w-7 h-7 left-[30.125rem] top-[52.3125rem] " >
+  <h1 class="
+  absolute
+  w-[5.0625rem]
+  h-[1.625rem]
+  inset-x-20
+  top-[52.125rem]
+  font-[inter]
+  not-italic
+  font-semibold
+  text-base
+  leading-none
+  bg-white-600
   
-</botton>
+  
+  
+  ">Português</h1>
+
+
+
+
+
+
+
+
+
 
 
   <div class="  
