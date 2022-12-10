@@ -15,7 +15,7 @@
   "
   > Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</h1>
 
-  <button onclick= {idomas.portugues} class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </button>
+  <button @click="portugues "   class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </button>
   <img src="./../assets/flags/brasil.png" class=" absolute w-5 h-5 left-[30.125rem] top-[52.3125rem] " >
   <h1 class="
   absolute
@@ -37,7 +37,7 @@
 
 
 
-  <button class="  
+  <button @click="ingles "  class="  
   absolute 
   w-[8.3125rem]
   h-[3.1875rem]
@@ -69,7 +69,7 @@
   
 
 
-  <Button class="  
+  <Button @click="espanhol "  class="  
   absolute 
   w-[8.3125rem]
   h-[3.1875rem]
@@ -115,18 +115,23 @@
     components: { 
      
     },
-    idiomas(){
 
-return{
-
-portugues: 'Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:',
-ingles: "Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:",
-espanhol:"Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:"
+    methods:{
+   portugues () {
+  
+  console.log('Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:')
+},
+ingles () {
+  
+  console.log('hello')
+},
+espanhol () {
+  
+  console.log('Mui bien')
 }
 
-
-
- }
+ 
   
-  }
+}
+}
   </script>
