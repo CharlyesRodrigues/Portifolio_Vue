@@ -7,22 +7,21 @@
   absolute
   w-[5.0625rem]
   h-[1.625rem]
-  inset-x-20
+  left-[31.875rem]
   top-[52.125rem]
   font-[inter]
   not-italic
   font-semibold
   text-base
-  leading-none
-  bg-white-600
+  leading-loose
+ text-white-600
   
   
   
   ">Português</h1>
 
 
-
-
+  
 
 
 
