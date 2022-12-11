@@ -8,25 +8,25 @@ module.exports = {
     extend: {
       backgroundImage: {
         'header-logo': "url('/src/assets/Logo/image.png')"
-       
+
       }
 
 
     },
-    colors:{
+    colors: {
       'white-500': '#FFFFFF',
-      'dark-700' : '#121212',
-      'white-600':' #EDEDED' ,
+      'dark-700': '#121212',
+      'white-600': ' #EDEDED',
       'gray-500': '#27272A',
-      'red-400 ' : '#990100',
-      'white-33%' : '#DADADA',
-      'dourado' : '#9D4B00'
+      'red-400 ': '#990100',
+      'white-33%': '#DADADA',
+      'dourado': '#9D4B00'
 
     },
     fontFamily: {
-    sans:['Inter', 'sans-serif'],
-     serif:['Merriweather', 'serif'],
-      
+      sans: ['Inter', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+
     }
   },
   plugins: [],

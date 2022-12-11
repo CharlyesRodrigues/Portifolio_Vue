@@ -1,8 +1,8 @@
 <template>
-      
 
-      
-      <h1 class=" 
+
+
+  <h1 class=" 
   text-white-500 
   absolute 
   w-[49.4375rem] 
@@ -15,11 +15,11 @@
   leading-[160%]
   text-center  
   
-  "
-  >{{texto}}</h1>
+  ">{{ texto }}</h1>
 
-  <button @click="portugues"   class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </button>
-  <img src="./../assets/flags/brasil.png" class=" absolute w-5 h-5 left-[30.125rem] top-[52.3125rem] " >
+  <button @click="portugues"
+    class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "> </button>
+  <img src="./../assets/flags/brasil.png" class=" absolute w-5 h-5 left-[30.125rem] top-[52.3125rem] ">
   <h1 class="
   absolute
   w-[5.0625rem]
@@ -40,7 +40,7 @@
 
 
 
-  <button @click="ingles "  class="  
+  <button @click="ingles" class="  
   absolute 
   w-[8.3125rem]
   h-[3.1875rem]
@@ -51,11 +51,10 @@
   bg-gray-500
   rounded-lg
   
-  " 
-  ></button>
+  "></button>
 
   <img src="./../assets/flags/usa.png" class=" absolute w-5 h-5 left-[42.625rem] top-[52.3125rem]  ">
-   <h1 class=" 
+  <h1 class=" 
     absolute
     w-[2.9375rem] 
     h-[1.625rem] 
@@ -65,14 +64,12 @@
     font-semibold 
     text-base 
     leading-normal 
-    text-white-600    "
-    
-    >Inglês</h1>
-
-  
+    text-white-600    ">Inglês</h1>
 
 
-  <Button @click="espanhol "  class="  
+
+
+  <Button @click="espanhol" class="  
   absolute 
   w-[8.3125rem]
   h-[3.1875rem]
@@ -83,9 +80,8 @@
   bg-gray-500
   rounded-lg
   
-  " 
-  ></Button>
-  <div>     
+  "></Button>
+  <div>
     <img src="./../assets/flags/spain.png" class="absolute w-5 h-5 left-[53.3125rem] top-[52.3125rem]">
     <h1 class="
     absolute
@@ -103,47 +99,43 @@
     
     ">Espanhol</h1>
   </div>
-  </template>
+</template>
   
-  <script>
-  
+<script>
 
-  
-  
-  export default {
-    name: 'Botao-',
-    components: { 
-     
+
+
+
+export default {
+  name: 'Botao-',
+  components: {
+
+  },
+  data() {
+    return {
+
+      texto: ' Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:',
+
+    }
+  },
+
+  methods: {
+    portugues() {
+
+      this.texto = ' Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
+
+
     },
-    data (){
-   return {
+    ingles() {
 
-   texto:' Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:',
+      this.texto = 'Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:'
+    },
+    espanhol() {
 
-
-
-   }
-
-
+      this.texto = 'Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:'
     },
 
-    methods:{
-  portugues () {
 
-this.texto = ' Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
-
-
-},
-ingles () {
-  
-    this.texto = 'Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:'
-},
-espanhol () {
-  
-  this.texto = 'Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:'
-},
-
-
- }
+  }
 }
-  </script>
+</script>

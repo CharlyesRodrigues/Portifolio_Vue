@@ -1,11 +1,7 @@
 <template>
-     <Header />
-    
-
-
-
-<tecnologias />
- <Botao />
+  <Header />
+  <tecnologias />
+  <Botao />
 
 </template>
 
@@ -20,13 +16,13 @@ import tecnologias from './components/tecnologias.vue';
 
 export default {
   name: 'App',
-  components: { 
-  Botao,
-  Header,
-  tecnologias
-  
- 
- 
+  components: {
+    Botao,
+    Header,
+    tecnologias
+
+
+
   }
 
 }
