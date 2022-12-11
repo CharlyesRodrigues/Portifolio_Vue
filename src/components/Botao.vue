@@ -1,4 +1,7 @@
 <template>
+      
+
+      
       <h1 class=" 
   text-white-500 
   absolute 
@@ -13,9 +16,9 @@
   text-center  
   
   "
-  > Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:</h1>
+  >{{texto}}</h1>
 
-  <button @click="portugues "   class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </button>
+  <button @click="portugues"   class="absolute  w-[8.3125rem] h-[3.1875rem] left-[29.375rem] top-[51.3125rem]  bg-gray-500 rounded-lg "  >  </button>
   <img src="./../assets/flags/brasil.png" class=" absolute w-5 h-5 left-[30.125rem] top-[52.3125rem] " >
   <h1 class="
   absolute
@@ -82,7 +85,7 @@
   
   " 
   ></Button>
-  
+  <div>     
     <img src="./../assets/flags/spain.png" class="absolute w-5 h-5 left-[53.3125rem] top-[52.3125rem]">
     <h1 class="
     absolute
@@ -99,15 +102,12 @@
     
     
     ">Espanhol</h1>
-
+  </div>
   </template>
   
   <script>
   
-  
-  
-  
-  
+
   
   
   export default {
@@ -115,23 +115,35 @@
     components: { 
      
     },
+    data (){
+   return {
+
+   texto:' Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:',
+
+
+
+   }
+
+
+    },
 
     methods:{
-   portugues () {
-  
-  console.log('Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:')
+  portugues () {
+
+this.texto = ' Olá, meu nome é Charlyes Souza Rodrigues e eu sou desenvolvedor Front-end, Tecnologias que tenho experiências:'
+
+
 },
 ingles () {
   
-  console.log('hello')
+    this.texto = 'Hello, my name is Charlyes Souza Rodrigues and I am a Front-end developer, Technologies that I have experiences:'
 },
 espanhol () {
   
-  console.log('Mui bien')
-}
+  this.texto = 'Hola, mi nombre es Charlyes Souza Rodrigues y soy desarrollador Front-end, Tecnologías que tengo experiencias:'
+},
 
- 
-  
-}
+
+ }
 }
   </script>
