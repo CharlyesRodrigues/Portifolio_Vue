@@ -125,7 +125,7 @@ ingles () {
   
   console.log('hello')
 },
-espanhol () {
+espahol () {
   
   console.log('Mui bien')
 }
