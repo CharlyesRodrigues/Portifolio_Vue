@@ -10,13 +10,15 @@ a linguagem selecionada
 
 4) Nesse projeto eu utilizei o Vue com Tailwind CSS
 
-# O que é o VUE ?
-
-O Vue.js é um framework Javascript open source bastante conhecido pela sua reatividade. Usado para construir SPA (Single Page Applications) e interfaces de usuário, tornou-se uma excelente opção, também, pelo fato de ter componentes reutilizáveis e proporcionar o desenvolvimento ágil.
 
 ![icons8-reaccionar-80 (2)](https://user-images.githubusercontent.com/98665329/209465954-604530b1-5fb5-423f-ba71-5c6200cc95d5.png)
 ![icons8-vue-js-96](https://user-images.githubusercontent.com/98665329/209465910-fba3bd5a-f181-47fd-b55e-ccf3a6bcc038.png)
 ![icons8-tailwindcss-96](https://user-images.githubusercontent.com/98665329/209465949-d423abf0-d846-4dca-9025-76fdab030f8e.png)
+
+# O que é o VUE ?
+
+O Vue.js é um framework Javascript open source bastante conhecido pela sua reatividade. Usado para construir SPA (Single Page Applications) e interfaces de usuário, tornou-se uma excelente opção, também, pelo fato de ter componentes reutilizáveis e proporcionar o desenvolvimento ágil.
+
 
 # Passo a passo do Projeto
 
@@ -60,7 +62,15 @@ asseets => contém as imagens de nosso projeto
 
 Babel(Transpilador) => transforma o o nosso código vue em JavaScript
 
+![image](https://user-images.githubusercontent.com/98665329/209469969-406c7286-5e81-4723-8eb4-296f5af3d34b.png)
 
+O package. json => é um arquivo de um projeto javascript que é responsável por guardar informações, scripts e controle de 
+versionamento de bibliotecas do projetos. Essas dependências são gerenciadas pelo NPM.
+
+![image](https://user-images.githubusercontent.com/98665329/209470353-f33fc4a1-8c48-4bcb-9764-d5291011db98.png)
+
+Componentes são instâncias reutilizáveis do Vue com um nome. Podemos usar esses componentes como um elemento personalizado 
+dentro da instância Vue raiz criada .
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
