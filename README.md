@@ -55,7 +55,7 @@ VsCode e depois no terminal digitar 'npm run serve' que irá abrir o browser  do
 
 ![image](https://user-images.githubusercontent.com/98665329/209469514-eb3d24f0-1b14-410e-b075-34e7e85f5004.png)
 
-asseets => contém as imagens de nosso projeto
+assets => contém as imagens de nosso projeto
 
 ![image](https://user-images.githubusercontent.com/98665329/209469461-658686ea-0ddf-4ff7-8d84-454071f599a9.png)
 
@@ -86,7 +86,7 @@ de entrada.
 
 ![image](https://user-images.githubusercontent.com/98665329/209472288-808c0594-5a77-4f7c-a609-7b5f7ff8cc2f.png)
 
-Para instalar o arquivo acima basta digitarmos o comando => npm install -D tailwindcss postcss autoprefixer
+Instalando o arquivo postcss.config.js => npm install -D tailwindcss postcss autoprefixer
 
 
 
