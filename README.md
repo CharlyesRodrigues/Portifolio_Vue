@@ -16,15 +16,33 @@ a linguagem selecionada
 
 # Passo a passo do Projeto
 
-Abri o powershell e instalar a CLI do VUE
+Abrir o powershell e instalar a CLI do VUE
+
 CLI=> npm install -g @vue/cli
 
-Podemos começar o projeto digitando essa linha de comando
+Podemos começar o projeto digitando:
 
-npm init vue@latest  ou vue create e o nome do projeto
+* npm init vue@latest  ou 
+* vue create e o nome do projeto
+
+Após a criação vai aparecer 3 opções e eu escolhi a primeira
+
+Vue CLI v5.0.8
+
+? Please pick a preset: (Use arrow keys)
+
+> Default ([Vue 3] babel, eslint)
+
+> Default ([Vue 2] babel, eslint)
+  
+  Manually select features
+  
+Depois do comando acima é só selecionar  o projeto com o comando cd + nome da pasta, digitar code para abrir o
+VsCode e depois no terminal digitar npm run serve que irá abrir o termninal de compilação que é o 
 
 
-:trash:
+
+
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
 
