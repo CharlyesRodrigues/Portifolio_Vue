@@ -84,6 +84,9 @@ de entrada.
 
 2º => npx tailwindcss init ( gera o arquivo de configuração do tailwind) ![image](https://user-images.githubusercontent.com/98665329/209472237-1b4ce90e-8c7c-4ff5-ab36-5edbbcf2a636.png)
 
+![image](https://user-images.githubusercontent.com/98665329/209472288-808c0594-5a77-4f7c-a609-7b5f7ff8cc2f.png)
+
+Para instalar o arquivo acima basta digitarmos o comando => npm install -D tailwindcss postcss autoprefixer
 
 
 
