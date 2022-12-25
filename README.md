@@ -37,11 +37,20 @@ Vue CLI v5.0.8
   
   Manually select features
   
-Depois do comando acima é só selecionar  o projeto com o comando cd + nome da pasta, digitar code para abrir o
-VsCode e depois no terminal digitar npm run serve que irá abrir o termninal de compilação que é o 
+Depois do comando acima é só selecionar  o projeto com o comando cd + nome da pasta, digitar 'code' para abrir o
+
+VsCode e depois no terminal digitar 'npm run serve' que irá abrir o browser  do projeto
+
+ App running at:
+  - Local:   http://localhost:8080/
+  - Network: http://192.168.0.2:8080/
+
+![image](https://user-images.githubusercontent.com/98665329/209466797-b0317ecc-6b27-42fa-bc47-6097b0959d42.png)
+
+![image](https://user-images.githubusercontent.com/98665329/209469461-658686ea-0ddf-4ff7-8d84-454071f599a9.png)
 
 
-
+Babel(Transpilador) => transforma o o nosso código vue em JavaScript
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
