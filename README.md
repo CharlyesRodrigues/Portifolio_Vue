@@ -78,6 +78,14 @@ Um app Vue acopla-se a um único elemento da DOM ( #app no nosso caso) e então 
 
 de entrada.
 
+# INSTALANDO O TAILWIND
+
+1º => npm install -D tailwindcss postcss autoprefixer
+2º => npx tailwindcss init ( gera o arquivo de configuração do tailwind) ![image](https://user-images.githubusercontent.com/98665329/209472237-1b4ce90e-8c7c-4ff5-ab36-5edbbcf2a636.png)
+
+
+
+
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
 
