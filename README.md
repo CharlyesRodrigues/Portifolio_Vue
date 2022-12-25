@@ -88,6 +88,17 @@ de entrada.
 
 Instalando o arquivo postcss.config.js => npm install -D tailwindcss postcss autoprefixer
 
+Adicione Tailwind à sua configuração PostCSS,
+
+Configure seus caminhos de modelo em  tailwind.config.js arquivo,
+
+Adicione as diretivas Tailwind ao seu CSS,
+
+Inicie seu processo de construção
+
+Execute seu processo de compilação com npm run dev ou qualquer comando configurado em seu package.json arquivo,
+
+Comece a usar o Tailwind no seu HTML.
 
 
 
