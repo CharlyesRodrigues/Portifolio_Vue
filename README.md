@@ -10,6 +10,10 @@ a linguagem selecionada
 
 4) Nesse projeto eu utilizei o Vue com Tailwind CSS
 
+# O que é o VUE ?
+
+O Vue.js é um framework Javascript open source bastante conhecido pela sua reatividade. Usado para construir SPA (Single Page Applications) e interfaces de usuário, tornou-se uma excelente opção, também, pelo fato de ter componentes reutilizáveis e proporcionar o desenvolvimento ágil.
+
 ![icons8-reaccionar-80 (2)](https://user-images.githubusercontent.com/98665329/209465954-604530b1-5fb5-423f-ba71-5c6200cc95d5.png)
 ![icons8-vue-js-96](https://user-images.githubusercontent.com/98665329/209465910-fba3bd5a-f181-47fd-b55e-ccf3a6bcc038.png)
 ![icons8-tailwindcss-96](https://user-images.githubusercontent.com/98665329/209465949-d423abf0-d846-4dca-9025-76fdab030f8e.png)
@@ -47,10 +51,16 @@ VsCode e depois no terminal digitar 'npm run serve' que irá abrir o browser  do
 
 ![image](https://user-images.githubusercontent.com/98665329/209466797-b0317ecc-6b27-42fa-bc47-6097b0959d42.png)
 
+![image](https://user-images.githubusercontent.com/98665329/209469514-eb3d24f0-1b14-410e-b075-34e7e85f5004.png)
+
+asseets => contém as imagens de nosso projeto
+
 ![image](https://user-images.githubusercontent.com/98665329/209469461-658686ea-0ddf-4ff7-8d84-454071f599a9.png)
 
 
 Babel(Transpilador) => transforma o o nosso código vue em JavaScript
+
+
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
