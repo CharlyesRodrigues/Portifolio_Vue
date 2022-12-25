@@ -60,17 +60,23 @@ asseets => contém as imagens de nosso projeto
 ![image](https://user-images.githubusercontent.com/98665329/209469461-658686ea-0ddf-4ff7-8d84-454071f599a9.png)
 
 
-Babel(Transpilador) => transforma o o nosso código vue em JavaScript
+Babel(Transpilador) => transforma o nosso código vue em JavaScript
 
 ![image](https://user-images.githubusercontent.com/98665329/209469969-406c7286-5e81-4723-8eb4-296f5af3d34b.png)
 
 O package. json => é um arquivo de um projeto javascript que é responsável por guardar informações, scripts e controle de 
 versionamento de bibliotecas do projetos. Essas dependências são gerenciadas pelo NPM.
 
-![image](https://user-images.githubusercontent.com/98665329/209470353-f33fc4a1-8c48-4bcb-9764-d5291011db98.png)
+![image](https://user-images.githubusercontent.com/98665329/209470405-c92c2933-2586-4130-8131-57c903e88e5f.png)
 
 Componentes são instâncias reutilizáveis do Vue com um nome. Podemos usar esses componentes como um elemento personalizado 
 dentro da instância Vue raiz criada .
+
+![image](https://user-images.githubusercontent.com/98665329/209471456-a52f34e9-ec16-4fc3-9024-5d67a4a301f1.png)
+
+Um app Vue acopla-se a um único elemento da DOM ( #app no nosso caso) e então o controla completamente. O HTML é o nosso ponto 
+
+de entrada.
 
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
