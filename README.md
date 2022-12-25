@@ -16,6 +16,7 @@ a linguagem selecionada
 
 
 
+![icons8-tailwind-css-96](https://user-images.githubusercontent.com/98665329/209466007-8568efcf-b1f5-45d2-be1d-65c5ff4d7f1d.png)
 
 
 
