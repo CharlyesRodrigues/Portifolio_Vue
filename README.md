@@ -14,11 +14,17 @@ a linguagem selecionada
 ![icons8-vue-js-96](https://user-images.githubusercontent.com/98665329/209465910-fba3bd5a-f181-47fd-b55e-ccf3a6bcc038.png)
 ![icons8-tailwindcss-96](https://user-images.githubusercontent.com/98665329/209465949-d423abf0-d846-4dca-9025-76fdab030f8e.png)
 
+# Passo a passo do Projeto
+
+Abri o powershell e instalar a CLI do VUE
+CLI=> npm install -g @vue/cli
+
+Podemos começar o projeto digitando essa linha de comando
+
+npm init vue@latest  ou vue create e o nome do projeto
 
 
-![icons8-tailwind-css-96](https://user-images.githubusercontent.com/98665329/209466007-8568efcf-b1f5-45d2-be1d-65c5ff4d7f1d.png)
-
-
+:trash:
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
 
