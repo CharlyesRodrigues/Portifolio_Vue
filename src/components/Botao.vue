@@ -107,7 +107,7 @@
 
 
 export default {
-  name: 'Botao-',
+  name: 'botao-',
   components: {
 
   },
