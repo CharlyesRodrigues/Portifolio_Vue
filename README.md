@@ -10,6 +10,14 @@ a linguagem selecionada
 
 4) Nesse projeto eu utilizei o Vue com Tailwind CSS
 
+![icons8-reaccionar-80 (2)](https://user-images.githubusercontent.com/98665329/209465954-604530b1-5fb5-423f-ba71-5c6200cc95d5.png)
+![icons8-vue-js-96](https://user-images.githubusercontent.com/98665329/209465910-fba3bd5a-f181-47fd-b55e-ccf3a6bcc038.png)
+![icons8-tailwindcss-96](https://user-images.githubusercontent.com/98665329/209465949-d423abf0-d846-4dca-9025-76fdab030f8e.png)
+
+
+
+
+
 
 ![portugues](https://user-images.githubusercontent.com/98665329/207727131-086301c1-8783-4477-9a0b-5b7f65b1061e.PNG)
 
